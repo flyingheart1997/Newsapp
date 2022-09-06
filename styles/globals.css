@@ -1,0 +1,111 @@
+/* html, */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@layer base {
+  body {
+    @apply font-body;
+  }
+}
+
+body{
+    background: #101018;
+    font-weight: 900;
+    color: #282f3a42 !important;
+    padding: 0;
+    margin: 0;
+   overflow-y: hidden;
+}
+
+.input{
+  height: 0 !important;
+  /* position: absolute !important; */
+  width: 200px;
+  border: none !important;
+  background-color: rgba(255,255,255,0.7) !important;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.css-tj5bde-Svg{
+  color: rgba(95, 91, 91, 0.808);
+  height: 17px;
+  margin-top: -4px;
+  cursor: pointer;
+} 
+
+.flag-select__option--placeholder{
+  color:rgba(142, 136, 136, 0.888);
+  font-size: large;
+}
+.flag-select__btn{
+  padding-top: 5px;
+  
+}
+.flag-select__option__label{
+  color: rgba(142, 136, 136, 0.888);
+  font-weight: 700;
+  font-size: large;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  display: block;
+  color: #64e0a0;
+}
+
+.swiper-slide{
+  width: auto!important;
+}
+
+.box{
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform: translate3d(-2%,-2%,100px);
+  /* box-shadow: 9px 15px 10px rgba(0, 0, 0, 0.489); */
+  /* background: rgba(119, 115, 115, 0.068); */
+  transform: scale3d(1.08,1.08,1.08);
+}
+.box:hover{
+  transform: translate3d(0,0,0);
+  box-shadow: 9px 15px 10px rgba(0, 0, 0, 0.511);
+  transform: scale3d(1.1,1.1,1.1);
+  color: azure !important;
+}
+
+.boxex{
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+.boxex:hover{
+  transition: 0.5s;
+  /* box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5); */
+  /* background: rgba(253, 252, 252, 0.066); */
+}
+
+.text:hover{
+  color: rgba(255,255,255,9);
+}
+.imgs{
+  height: 180px!important;
+}
+.customOverlay {
+  background: rgba(23, 21, 21, 0.342);
+}
+.customModal {
+  background: #282727 !important;
+  width: 90%;
+  border: 1px solid;
+  padding: 5px !important;
+  transition: 0.9s ease-out;
+}
+.react-responsive-modal-closeButton{
+  z-index: 999;
+  border-radius: 4px;
+  background-color: rgba(221, 221, 221, 0.543) !important;
+  top: 5px !important;
+  right: 5px !important;
+  border: none !important;
+
+}
